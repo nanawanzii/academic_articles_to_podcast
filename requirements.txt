@@ -1,0 +1,12 @@
+# Core dependencies for PDF processing and AI functionality
+pdfplumber>=0.10.0
+openai>=1.62.0
+TTS>=0.24.0
+
+# Audio processing dependencies
+torch>=2.8.0
+torchaudio>=2.8.0
+
+# Additional dependencies that might be needed
+requests>=2.32.0
+numpy>=2.2.0
