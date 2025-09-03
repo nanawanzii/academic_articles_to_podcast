@@ -3,7 +3,7 @@ from openai import OpenAI
 def summarise_text(text):
     client = OpenAI(
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
-        api_key= "sk-4933347d468145089fbb21aa2e1e5d3f",
+        api_key= "YOUR_API_KEY",
     )
     response = client.chat.completions.create(
         model="qwen-max",
